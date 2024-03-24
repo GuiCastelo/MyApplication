@@ -1,0 +1,13 @@
+@import "/src/shared/styles/variables.module.scss";
+
+.breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+
+  &__label {
+  display: flex;
+  align-items: center;
+  color: $contrast-color;
+  column-gap: 4px;
+  }
+}

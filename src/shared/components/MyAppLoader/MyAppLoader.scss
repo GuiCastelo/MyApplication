@@ -1,0 +1,16 @@
+.loader {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background-color: #80808099;
+  z-index: 800;
+
+  &__circle {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: (-50%, -50%);
+  }
+}

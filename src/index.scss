@@ -1,0 +1,81 @@
+@import "./shared/styles/variables.module.scss";
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Roboto sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $primary-color;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin: 32px 5%;
+}
+
+p, b, i, strong, text, h1, h2, h3, h4, h5, h6 {
+  color: $text-color;
+  margin: 0;
+}
+
+// Typography
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+// Common classes
+
+.table {
+  &__actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__head {
+    background-color: $secondary-color;
+  }
+
+  &__body {
+    background-color: white;
+  }
+
+  &__row {
+    color: $text-color--inverse;
+  }
+}
+
+.form {
+  width: 95%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  max-width: 1140px;
+
+  &__field {
+    width: 100%;
+    height: 72px;
+
+    &--error {
+      margin: 0;
+      color: #d32f2f;
+    }
+  }
+}

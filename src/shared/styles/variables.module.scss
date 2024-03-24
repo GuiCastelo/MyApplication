@@ -1,0 +1,41 @@
+// Colors
+$primary-color: #27374D;
+$secondary-color: #526D82;
+$contrast-color: #9EC8B9;
+$constrast-color--inverse: #030712;
+$text-color: #ffffff;
+$text-color--inverse: #030712;
+$color--disabled: #0000001f;
+$text-color--disabled: #00000042;
+
+//Typography
+$font-size-xs: 12px;
+$font-size-s: 14px;
+$font-size-m: 16px;
+$font-size-l: 24px;
+$font-size-xl: 32px;
+
+$font-weight-xs: 400;
+$font-weight-s: 500;
+$font-weight-m: 600;
+$font-weight-l: 700;
+
+:export {
+  primary-color: $primary-color;
+  secondary-color: $secondary-color;
+  contrast-color: $contrast-color;
+  constrast-color--inverse: $constrast-color--inverse;
+  text-color: $text-color;
+  text-color--inverse: $text-color--inverse;
+
+  font-size-xs: $font-size-xs;
+  font-size-s: $font-size-s;
+  font-size-m: $font-size-m;
+  font-size-l: $font-size-l;
+  font-size-xl: $font-size-xl;
+
+  font-weight-xs: $font-weight-xs;
+  font-weight-s: $font-weight-s;
+  font-weight-m: $font-weight-m;
+  font-weight-l: $font-weight-l;
+}

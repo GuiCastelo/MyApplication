@@ -1,0 +1,10 @@
+@import "/src/shared/styles/variables.module.scss";
+
+.users {
+  &__table {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+  }
+}

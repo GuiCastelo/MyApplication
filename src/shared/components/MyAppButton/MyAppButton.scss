@@ -1,0 +1,13 @@
+@import "/src/shared/styles/variables.module.scss";
+
+.button {
+  border-radius: 8px !important;
+  color: $text-color !important;
+  background-color: $secondary-color !important;
+
+  &--disabled {
+    border-radius: 8px !important;
+    color: $text-color--disabled !important;
+    background-color: $color--disabled !important;
+  }
+}
